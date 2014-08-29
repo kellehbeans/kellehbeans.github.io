@@ -117,5 +117,6 @@ footer>*{
 #about {
     background-image:url('charlie.jpg');
     background-size: cover;
+background-position: center;
     color: #ddd;
 }   
