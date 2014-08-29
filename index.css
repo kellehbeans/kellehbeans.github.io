@@ -22,7 +22,7 @@ header {
     background-color: rgb(128,185,69);
     color: #ddd;
     overflow:hidden;
-    min-height: 26em;
+    min-height: 30em;
     height: 90vh;
 }
 header a.header {
@@ -32,13 +32,23 @@ header a.header {
     left:0;
     right:0;
     margin-top:-7em;
-    
+    width: 100%;
 }
 header img {
     border-radius: 50%;
     opacity:0.9;
     height: 10em;
      border:none;
+}
+
+p.links {
+     text-decoration: none;
+    position: absolute;
+    top:50%;
+    left:0;
+    right:0;
+    margin-top:7em;
+    width: 100%;
 }
 
 h1,h2,h3,h4,h5,h6,.next {
@@ -83,7 +93,6 @@ footer>*{
     bottom: 1em;
     left:50%;
     margin-left:-1.5em;
-    
     width: 3em;
     line-height:3em;
     border-radius: 50%;
@@ -96,6 +105,17 @@ footer>*{
 .next:hover {
     opacity:1;
 }
-.next:before{
-    content: "∨";
+
+.icon {
+    padding: 5px 5px 5px 5px;
 }
+
+.icon:hover {
+    color: #222;
+    }
+
+#about {
+    background-image:url('charlie.jpg');
+    background-size: cover;
+    color: #ddd;
+}   
