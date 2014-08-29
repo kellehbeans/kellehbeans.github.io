@@ -66,6 +66,7 @@ header p {
 
 header, section {
     position:relative;
+	display: block;
 }
 header>*,section>*, footer>* {
     max-width: 600px;
@@ -79,6 +80,8 @@ section p{
 section{
     min-height: 90vh;
     padding:2em 1em 4em 1em;
+	background-size: cover;
+	background-position: center;
 }
 footer {
     background-color: #222;
@@ -88,6 +91,11 @@ footer>*{
     margin: 0 auto;
     padding: 1em;
 }
+
+footer p{
+	margin-bottom: 1em;
+}
+
 .next {
     position:absolute;
     bottom: 1em;
@@ -116,7 +124,18 @@ footer>*{
 
 #about {
     background-image:url('charlie.jpg');
-    background-size: cover;
-background-position: center;
     color: #ddd;
-}   
+}
+
+#hobbies {
+	background-image:url('kermit.jpg');
+}
+
+#achievements{
+	background-image:url('civic.jpg');
+}
+
+#about, #hobbies, #achievements{
+	color: #ddd;
+}
+
