@@ -67,6 +67,7 @@ header p {
 header, section {
     position:relative;
 	display: block;
+    padding-bottom: 5em;
 }
 header>*,section>*, footer>* {
     max-width: 600px;
@@ -86,6 +87,7 @@ section{
 footer {
     background-color: #222;
     color: #ddd;
+    overflow: hidden;
 }
 footer>*{
     margin: 0 auto;
@@ -129,13 +131,22 @@ footer p{
 
 #hobbies {
 	background-image:url('kermit.jpg');
+    background-position: bottom left;
 }
 
-#achievements{
+/*#achievements{
 	background-image:url('civic.jpg');
-}
+    background-position: center right;
+}*/
 
 #about, #hobbies, #achievements{
 	color: #ddd;
+    background-attachment: fixed;
+}
+
+@media(max-width:30em) {
+    header {
+             min-height: 33em; 
+           }
 }
 
