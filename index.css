@@ -42,7 +42,7 @@ header img {
 }
 
 p.links {
-     text-decoration: none;
+    text-decoration: none;
     position: absolute;
     top:50%;
     left:0;
@@ -78,6 +78,7 @@ header>*,section>*, footer>* {
 section p{ 
     text-align: left;
 }
+
 section{
     min-height: 90vh;
     padding:2em 1em 4em 1em;
@@ -148,5 +149,19 @@ footer p{
     header {
              min-height: 33em; 
            }
+}
+
+div.vers {
+	float: left;
+	padding: 0.5em;
+	font-size: 14px;
+}
+
+a.vers {
+	text-decoration: none;
+}
+
+a.vers:hover {
+	color: red;
 }
 
